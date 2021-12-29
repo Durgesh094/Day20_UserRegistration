@@ -19,7 +19,7 @@ public class OneSpecialCharacter {
 	}
 
 	public static void main(String[] args) {
-		OneSpecialCharacter specialCharacter= new OneSpecialCharacter ();
+		OneSpecialCharacter specialCharacter = new OneSpecialCharacter();
 		System.out.println(specialCharacter.regex("XYZmngccc@123abc"));
 		System.out.println(specialCharacter.regex("Xyz#123abcd"));
 
